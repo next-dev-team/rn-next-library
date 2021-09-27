@@ -1,40 +1,42 @@
 {
-  "name": "vant-react-native",
-  "version": "0.6.0",
-  "description": "Lightweight React Native UI Components inspired on Vant",
-  "keywords": [
-    "vant",
-    "react-native",
-    "vant-react-native"
-  ],
-  "files": [
-    "lib"
-  ],
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "scripts": {
-    "prebuild": "rimraf lib",
-    "build": "tsc",
-    "dev": "yarn build -w",
-    "prepublishOnly": "yarn build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/youngjuning/vant-react-native.git"
-  },
-  "author": {
-    "name": "洛竹",
-    "email": "youngjuning@aliyun.com",
-    "url": "https://youngjuning.js.org"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/youngjuning/vant-react-native/issues"
-  },
-  "homepage": "https://github.com/youngjuning/vant-react-native/tree/main/packages/vant-react-native#readme",
-  "dependencies": {
-    "@vant-react-native/button": "^0.2.0",
-    "@vant-react-native/icons": "^0.4.0",
-    "@vant-react-native/theme": "^0.1.0"
-  }
+    "name": "rn-next-dev",
+    "version": "0.0.1",
+    "description": "Lightweight React Native UI Components inspired on Vant",
+    "keywords": [
+        "vant",
+        "react-native",
+        "vant-react-native"
+    ],
+    "files": [
+        "lib"
+    ],
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "scripts": {
+        "prebuild": "rimraf lib",
+        "build": "tsc",
+        "dev": "yarn build -w",
+        "prepublishOnly": "yarn build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/youngjuning/vant-react-native.git"
+    },
+    "author": {
+        "name": "洛竹",
+        "email": "youngjuning@aliyun.com",
+        "url": "https://youngjuning.js.org"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/youngjuning/vant-react-native/issues"
+    },
+    "homepage": "https://github.com/youngjuning/vant-react-native/tree/main/packages/vant-react-native#readme",
+    "dependencies": {
+        "@vant-react-native/components": "^0.2.0",
+        "@vant-react-native/icons": "^0.4.0",
+        "@vant-react-native/theme": "^0.1.0",
+        "@vant-react-native/helpers": "^0.2.0",
+        "@vant-react-native/provider": "^0.2.0"
+    }
 }

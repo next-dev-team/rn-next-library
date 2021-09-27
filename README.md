@@ -19,7 +19,7 @@ npm install vant-react-native
 ```tsx
 import React, { Component } from 'react';
 import { View, Text, SafeAreaView, ScrollView } from 'react-native';
-import { Icon } from 'vant-react-native';
+import { Icon } from 'rn-next-dev';
 
 type IconNameType = React.ComponentProps<typeof Icon>['name'];
 
@@ -40,8 +40,8 @@ export default class IconList extends Component {
                     alignItems: 'center',
                   }}
                 >
-                  <Icon name={item} size={18}/>
-                  <Text style={{ color: '#646566', marginTop: 10,fontSize:10 }}>{item}</Text>
+                  <Icon name={item} size={18} />
+                  <Text style={{ color: '#646566', marginTop: 10, fontSize: 10 }}>{item}</Text>
                 </View>
               );
             })}

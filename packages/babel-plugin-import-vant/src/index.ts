@@ -4,7 +4,7 @@ export default (): any[] => [
   [
     'import',
     {
-      libraryName: 'vant-react-native',
+      libraryName: 'rn-next-dev',
       customName: (name: string) => {
         if (name === 'icon') {
           return '@vant-react-native/icons';
@@ -15,7 +15,7 @@ export default (): any[] => [
         return `@vant-react-native/${name}`;
       },
     },
-    'vant-react-native',
+    'rn-next-dev',
   ],
   [
     'import',

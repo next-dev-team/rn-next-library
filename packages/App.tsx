@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { SafeAreaView, ScrollView } from 'react-native';
-import ButtonDemo from './button/demo';
+import { NText } from 'rn-next-dev';
 
 class App extends Component {
   render() {
     return (
       <SafeAreaView>
         <ScrollView>
-          <ButtonDemo />
+          <NText variant="header">Hello</NText>
         </ScrollView>
       </SafeAreaView>
     );
