@@ -1,8 +1,7 @@
-import { helpers } from '@vant-react-native/helpers';
 import React from 'react';
 import { ActivityIndicator, TouchableOpacity } from 'react-native';
-import { NText } from 'rn-next-dev';
-import { NBox, NFlex } from '..';
+import { helpers } from 'rn-next-dev';
+import { NBox, NFlex, NText } from '..';
 import { ButtonProps } from './type';
 import { useButton } from './useButton';
 
@@ -32,7 +31,6 @@ const Button = (props: ButtonProps) => {
             </>
           )}
           {typeof children === 'string' ? (
-            // @ts-ignore
             <NText textTransform="capitalize" color="colorWhite" {...textProps}>
               {children}
             </NText>

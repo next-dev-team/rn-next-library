@@ -3,7 +3,7 @@ import { borderRadii } from './borderRadii';
 import { breakpoints } from './breakpoints';
 import { cardVariants } from './cardVariants';
 import { colorsTheme, ColorsTheme } from './colors';
-import { spacingTheme } from './spacing';
+import { spacingTheme, SpacingTheme } from './spacing';
 import { textVariants } from './textVariants';
 import { zIndices } from './zIndices';
 
@@ -20,7 +20,7 @@ const lightTheme = createTheme({
   zIndices,
 });
 
-export type AppTheme = typeof lightTheme;
+type AppTheme = typeof lightTheme;
 
 const darkTheme: AppTheme = {
   ...lightTheme,
@@ -30,4 +30,4 @@ const darkTheme: AppTheme = {
 };
 
 export { darkTheme, lightTheme, spacingTheme };
-export type { ColorsTheme };
+export type { ColorsTheme, AppTheme, SpacingTheme };

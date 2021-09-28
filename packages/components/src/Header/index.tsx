@@ -1,7 +1,6 @@
-import { SpacingTheme } from '@vant-react-native/theme/lib/spacing';
 import { ReactNode } from 'react';
-import { helpers, NText } from 'rn-next-dev';
-import { NBox, NButton, NFlex } from '..';
+import { helpers, SpacingTheme } from 'rn-next-dev';
+import { NBox, NButton, NFlex, NText } from '..';
 
 export type NHeaderProps = {
   center?: string | boolean | ReactNode;

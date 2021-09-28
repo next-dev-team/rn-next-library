@@ -78,7 +78,7 @@ const designHeight = 667;
 const dpWidth = designWidth / defaultPixelRatio;
 const dpHeight = designHeight / defaultPixelRatio;
 
-//Get zoom ratio
+// Get zoom ratio
 const scale = Math.min(SCREEN_HEIGHT / dpHeight, SCREEN_WIDTH / dpWidth);
 
 const ONE_PIXEL = StyleSheet.hairlineWidth;

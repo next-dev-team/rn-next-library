@@ -1,5 +1,5 @@
 import React from 'react';
-import { NText } from 'rn-next-dev';
+import NText from '../Text';
 import { DemoProvider } from '../utils/DemoProvider';
 
 export default () => {

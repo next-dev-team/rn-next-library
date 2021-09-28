@@ -1,10 +1,10 @@
 import { useTheme } from '@shopify/restyle';
-import { AppTheme, ColorsTheme } from '@vant-react-native/theme';
 import { useCreation } from 'ahooks';
+import { AppTheme, ColorsTheme } from 'rn-next-dev';
 import { ButtonProps } from './type';
 
 export const useButton = (props: ButtonProps) => {
-  const { type, shape, size, loading, loadingText, children, textProps } = props;
+  const { type, shape, size } = props;
   const theme = useTheme<AppTheme>();
 
   const getSizeHeight = useCreation(() => {

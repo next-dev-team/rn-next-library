@@ -1,6 +1,6 @@
 import Provider from '@vant-react-native/provider';
-import { darkTheme, lightTheme } from '@vant-react-native/theme';
 import { ScrollView } from 'react-native-gesture-handler';
+import { darkTheme, lightTheme } from 'rn-next-dev';
 import { NBox, NButton, NFlex, NHeader } from '..';
 import CtxProvider, { useDemoState } from './DemoCtx';
 
